@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         
 <p>
-I was a 2021 I was a 2021  
+I was a 2021  
 <a href="https://www.aaas.org/programs/mass-media-fellowship/tamar-lichter-blanks"> AMS-AAAS Mass Media Fellow </a>
 at <a href="https://theconversation.com/us"> The Conversation US</a>
 . For more on that, see Outreach.
