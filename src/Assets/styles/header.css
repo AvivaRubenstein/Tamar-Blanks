@@ -3,7 +3,7 @@ header.navbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 /* Formatting for desktop size screen */
@@ -13,11 +13,15 @@ header.navbar {
         flex-wrap: nowrap; /* Prevent items from wrapping */
         justify-content: space-between; /* Spread items out */
         align-items: center;
+        padding: 2%;
     }
     
     /* Adjust spacing between navbar items  */
     .navbar-expand-lg .navbar-item {
         margin-right: 20px; /* Increase the margin between items */
+    }
+    .navbar-expand-lg .navbar-brand {
+        margin-right: auto;  /* pushing navbar-brand to the left */
     }
 }
 
