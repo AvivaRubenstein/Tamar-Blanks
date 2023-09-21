@@ -8,7 +8,7 @@ import Header from './Header';
 
 export default function Container() {
     return (
-        <Router >
+        <Router basename="/tamar-blanks">
             <Header/>
             <Routes>
                 <Route
