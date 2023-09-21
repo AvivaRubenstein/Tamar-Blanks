@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 require('../Assets/styles/header.css');
+// TODO: replace this file with updated CV pdf
+const cv = require('../Assets/SampleCV.pdf');
 
 export default function Header(){
     return (
@@ -10,8 +12,9 @@ export default function Header(){
             <Link className="navLink navbar-item" to='/Research'> Research </Link>
             <Link className="navLink navbar-item" to='/Teaching'> Teaching </Link>
             <Link className="navLink navbar-item" to='/Outreach'> Outreach </Link>
-            <button id="cv-button" className="navbar-item">CV</button>
-            {/* button for CV download here */}
+            {/* button for CV download */}
+            <a id="cv-button" className="navbar-item" href={cv} download>CV</a>
+            
         </header>
     )
 }
