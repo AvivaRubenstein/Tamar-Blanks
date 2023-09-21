@@ -7,7 +7,7 @@ import Container from './components/Container';
 function App() {
   // Use the useEffect hook to set the document title
   useEffect(() => {
-    document.title = "tamar-blanks"; // Replace with your desired title
+    document.title = "tamar-blanks"; 
   }, []);
 
   return (

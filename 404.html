@@ -12,7 +12,8 @@
         // Replace 'path/to/your/bundle.js' with the actual path.
         // The script should use the correct base URL (basename).
         const script = document.createElement('script');
-        script.src = '/tamar-blanks/static/js/main.0645fd36.js';
+        // we are using the wildcard operator (*) because with each build the filename of the main.js file changes, and we want to refer to the correct filepath
+        script.src = "/tamar-blanks/static/js/main.*.js";
         script.async = true;
         document.getElementById('root').appendChild(script);
     </script>
