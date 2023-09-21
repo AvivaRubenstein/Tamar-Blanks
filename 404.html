@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tamar Blanks</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        // Load your React app's JavaScript bundle.
+        // Replace 'path/to/your/bundle.js' with the actual path.
+        // The script should use the correct base URL (basename).
+        const script = document.createElement('script');
+        // we are using the wildcard operator (*) because with each build the filename of the main.js file changes, and we want to refer to the correct filepath
+        script.src = "/tamar-blanks/static/js/main.*.js";
+        script.async = true;
+        document.getElementById('root').appendChild(script);
+    </script>
+</body>
+</html>
