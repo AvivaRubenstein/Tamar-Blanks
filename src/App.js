@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      (
+
         <Router basename="/tamar-blanks">
             <Header/>
             <Routes>
@@ -34,7 +34,7 @@ function App() {
                 />
             </Routes>
         </Router>
-    )
+
     </div>
   );
 }
