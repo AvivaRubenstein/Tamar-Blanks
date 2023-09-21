@@ -2,7 +2,7 @@ import React from 'react';
 export default function Outreach() {
     return (
         <div>
-        <div class="container-fluid">
+        <div className="container-fluid">
 			<h4><strong>Mathematics Communication</strong></h4>
 
 			<p>
@@ -15,7 +15,7 @@ export default function Outreach() {
 				From 2014 to 2017, I wrote a "Math In Plain English" column at the Queens College publication <a href="http://qcvoices.qwriting.qc.cuny.edu/author/tamarlichter/">QC Voices</a>.
 			</p>
 		</div>
-        <div class="container-fluid">
+        <div className="container-fluid">
     		<h4><strong>Service and Outreach</strong></h4>
     		<p>
     			Together with <a href="https://sites.math.rutgers.edu/~cy257/index.html">Corrine Yap</a> and <a href="https://sites.math.rutgers.edu/~yd209/index.html">Yael Davidov</a>, I helped found the <a href="https://sites.math.rutgers.edu/~cy257/AWM.html">Rutgers chapter</a> of the <a href="https://awm-math.org/">Association for Women in Mathematics</a> in 2018, and served as an officer through Spring 2022. For a list of recent and upcoming events, see the <a href="https://sites.math.rutgers.edu/~cy257/AWM.html"> chapter website</a>.

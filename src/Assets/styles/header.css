@@ -4,6 +4,7 @@ header.navbar {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--FordhamLightGray) !important;
 }
 
 /* Formatting for desktop size screen */
@@ -27,4 +28,8 @@ header.navbar {
 
 .navbar-item {
     text-decoration: none;
+    color: var(--RamsMaroon);
+}
+.navbar-brand {
+    color: var(--RamsMaroon) !important;
 }

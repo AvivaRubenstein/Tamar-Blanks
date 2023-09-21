@@ -2,7 +2,7 @@ import React from 'react';
 export default function Teaching() {
     return (
 
-        <div class="container-fluid">
+        <div className="container-fluid">
 			<h4><strong>Teaching and Mentoring</strong></h4>
 			<p>
 				Math 351, <a href="https://www.math.rutgers.edu/academics/undergraduate/courses/962-01-640-351-introduction-to-abstract-algebra-i">Introduction to Abstract Algebra I</a>: teaching assistant in Spring 2022. For this course I was awarded a <a href="https://www.math.rutgers.edu/academics/graduate-program/graduate-student-awards">TA Teaching Excellence Award</a> by the Rutgers math department.

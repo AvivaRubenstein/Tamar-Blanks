@@ -1,12 +1,12 @@
 import React from 'react';
 export default function Research() {
     return (
-        <div>
-
-        <p id="bio"> 
+        <div >
+        
+            <div className="container-fluid">
+            <p id="bio"> 
 				My research is in algebra: I am interested in quadratic forms, fields, division algebras, and Lie algebras. My advisor is <a href="https://dkrashen.github.io/">Danny Krashen</a>.
 			</p>
-            <div class="container-fluid">
 			<h4><strong>Publications</strong></h4>
 			<p>
 				In addition to algebra, I am also interested in cryptography, and I used to do research in graph theory.
@@ -29,8 +29,8 @@ export default function Research() {
 				</li>
 			</ul>
 		</div>
-        <div class="container-margins">
-		<div class="container-fluid">
+        <div className="container-margins">
+		<div className="container-fluid">
 			<h4><strong>Selected Seminar Talks (Recorded)</strong></h4>
 			<p>
 			 <b><a href="https://www.youtube.com/watch?v=u80BARcdLW0">Quadratic forms and algebraic structures</a></b>, at the Rutgers <a href="https://sites.math.rutgers.edu/~sz446/GARTS/">Graduate Algebra and Representation Theory Seminar</a>,  April 25, 2022. A Witt invariant is a rule that assigns quadratic forms to algebraic objects, satisfying some conditions. There is a ring of Witt invariants, called Inv_k(G,W), for any finite group G and field k. These rings are not well understood except in some specific cases. In this talk, we'll define the ring Inv_k(G,W), give some examples of what is and isn't known, and discuss some of the tools one can use to think about Witt invariants, including ideas from representation theory, category theory, and Galois theory.

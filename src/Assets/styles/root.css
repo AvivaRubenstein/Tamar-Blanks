@@ -1,0 +1,16 @@
+:root {
+    --FordhamMaroon : #900028;
+    --RamsMaroon : #5A0414;
+    --FordhamDarkGray : #58585B;
+    --FordhamLightGray : #E1E1E1;
+    --NewYorkGold : #CFC1A3;
+    --FordhamGold: #9E8959;
+    --FordhamBlack : #282220;
+}
+/* a links won't be styled with an underline */
+a {
+    text-decoration: none !important;
+}
+.container-fluid {
+    padding-top: 3%;
+}

@@ -1,14 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+require('../../Assets/styles/home.css');
 const photo = require('../../Assets/Tamar_headshot.jpg');
-const styles = {
-    photo : {
-        width: '25vw'
-    }
-}
+
 export default function Home() {
     return (
 <div className='container-fluid'>
+    <div className="row">
+        <div className="col-9">
 <p>I am a mathematics PhD candidate and NSF Graduate Research Fellow at Rutgers University. My research is in algebra: I am interested in quadratic forms, fields, division algebras, and Lie algebras. 
 My advisor is Danny Krashen. 
 </p>
@@ -24,7 +23,11 @@ at <a href="https://theconversation.com/us"> The Conversation US</a>
 <p>
 My email address is tl548 at math.rutgers.edu.
 </p>
-        <img className="img-responsive" src={photo} alt="tamar-photo" style={styles.photo}></img>
+        </div>
+        <div className="col-3">
+<img id="photo" className="img-responsive" src={photo} alt="tamar-photo" ></img>
+        </div>
+    </div>
         </div>
     )
 }
